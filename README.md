@@ -1,95 +1,91 @@
+---
 
-````markdown
-# 🐍 Snake Game in Java
+# 🐍 Snake Game — Java Edition
 
-A modern recreation of the classic Snake Game built using **Java** and **Swing**. This solo project demonstrates fundamental concepts in **Object-Oriented Programming (OOP)**, **event-driven programming**, and **GUI application development**.
+A modern twist on the **classic Snake game**, built entirely using **Java** and **Swing**. This solo project highlights my understanding of **Object-Oriented Programming (OOP)**, **event-driven architecture**, and **interactive GUI development**.
 
 ---
 
-## 🎮 Gameplay Preview
+## 🎮 Gameplay Overview
 
-- Use arrow keys to control the snake.
-- Eat the red apples to grow longer.
-- Avoid colliding with the walls or yourself.
-- The game ends if the snake runs into itself or the wall.
-
----
-
-## 🛠️ Tech Stack
-
-- **Language:** Java  
-- **GUI:** Java Swing, AWT  
-- **Core Concepts:** OOP, Timers, Event Listeners, Key Bindings
+* 🕹️ **Control**: Use arrow keys to move the snake.
+* 🍎 **Goal**: Eat apples to grow longer.
+* 🚧 **Avoid**: Crashing into walls or your own tail.
+* 🏁 **Game Over**: Triggered by any collision.
 
 ---
 
-## ✨ Features
+## 🛠 Tech Stack
 
-- 🎨 **Interactive GUI** using `JFrame`, `JPanel`, and custom `paintComponent()` logic.
-- ⌨️ **Keyboard Controls** with `KeyListener` for responsive arrow key input.
-- 🍎 **Random Apple Spawning** with grid-aligned placement.
-- 📈 **Live Score Tracking** that updates in real time.
-- 🧱 **Collision Detection** for walls and self.
-- 🔁 **Game Restart Functionality** with score reset and timed restart prompt.
-
----
-
-## 💡 Key Concepts
-
-- **Object-Oriented Design:** Organized code into modular classes (`GamePanel`, `Snake`, `Apple`, etc.)
-- **Event-Driven Programming:** Leveraged listeners for real-time user input.
-- **Game Loop Logic:** Used `Timer` to drive smooth animations and game updates.
-- **Clean Code Practices:** Focused on readability, reusability, and maintainability.
+| Category     | Tools/Technologies           |
+| ------------ | ---------------------------- |
+| **Language** | Java                         |
+| **GUI**      | Java Swing, AWT              |
+| **Concepts** | OOP, Event Listeners, Timers |
 
 ---
 
-## 🚀 Future Enhancements
+## ✨ Core Features
 
-- Add background music and sound effects.
-- Persistent high-score saving using file I/O or SQLite.
-- Difficulty levels (speed increases over time).
-- Enhanced animations with JavaFX or canvas rendering.
-- Multiplayer support via sockets or LAN.
+* 🎨 **Custom GUI**: Built with `JFrame`, `JPanel`, and manual `paintComponent()` rendering.
+* ⌨️ **Keyboard Controls**: Smooth arrow-key input via `KeyListener`.
+* 🍏 **Randomized Apple Placement**: Apples spawn randomly within a grid-aligned board.
+* 📊 **Real-Time Score Tracker**: Score updates dynamically with gameplay.
+* ❌ **Collision Detection**: Self and wall collision end the game.
+* 🔁 **Game Restart**: Auto-restart prompt with reset score functionality.
 
+---
 
+## 💡 Key Concepts Demonstrated
+
+* **Modular OOP Design**: Clean separation of game logic (`Snake`, `Apple`, `GamePanel`, etc.).
+* **Event-Driven Logic**: `KeyListener` and `Timer` for real-time responsiveness.
+* **Game Loop Management**: Smooth, consistent updates using Java’s `Timer`.
+* **Clean Code Practices**: Emphasis on readability, structure, and reusability.
+
+---
+
+## 🚀 Planned Enhancements
+
+* 🎵 Background music & SFX
+* 💾 Persistent high-score tracking using file I/O or SQLite
+* 🔥 Difficulty scaling (speed increases with time)
+* 🎨 Enhanced graphics (possibly using JavaFX)
+* 🤝 Local multiplayer over sockets or LAN
+
+---
 
 ## 🧠 What I Learned
 
-- Building a full GUI application from scratch in Java.
-- Managing game state, rendering logic, and real-time user interactions.
-- Structuring clean, modular, and scalable Java codebases.
-- Debugging visual issues in event-driven environments.
+* End-to-end GUI application development in Java.
+* Handling game state, rendering, and user interactions in real time.
+* Writing clean, modular, and maintainable Java code.
+* Debugging graphical and logic bugs in event-driven environments.
 
 ---
 
-## 📂 How to Run
+## 📦 How to Run
 
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/your-username/snake-game-java.git
-   cd snake-game-java
-````
+### 🔧 Prerequisites
 
-2. Compile and run:
+* Java JDK 8 or higher
 
-   ```bash
-   javac SnakeGame.java
-   java SnakeGame
-   ```
+### ▶️ Steps
 
-> ✅ Java JDK 8 or above is required to compile and run the game.
+```bash
+# Clone the repository
+git clone https://github.com/your-username/snake-game-java.git
+cd snake-game-java
+
+# Compile and run
+javac SnakeGame.java
+java SnakeGame
+```
 
 ---
 
 ## 🙌 Credits
 
-Created with ❤️ by **\Ishaan Taneja**
+Created with ❤️ by **Ishaan Taneja**
+Feel free to ⭐ the repo, fork it, or open issues if you want to collaborate or suggest improvements!
 
-Feel free to fork, star ⭐, or open issues if you’d like to collaborate or suggest features!
-
----
-
-```
-
-
-```
