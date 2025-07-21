@@ -51,13 +51,7 @@ A modern recreation of the classic Snake Game built using **Java** and **Swing**
 - Enhanced animations with JavaFX or canvas rendering.
 - Multiplayer support via sockets or LAN.
 
----
 
-## 📸 Screenshots
-
-> *(Add screenshots here if available – gameplay, UI, score screen, etc.)*
-
----
 
 ## 🧠 What I Learned
 
@@ -97,5 +91,5 @@ Feel free to fork, star ⭐, or open issues if you’d like to collaborate or su
 
 ```
 
-Let me know if you want a **version with dark mode screenshots**, **demo GIFs**, or **badge integration (e.g. Java version, license, GitHub stars)**.
+
 ```
